@@ -65,6 +65,8 @@ transformed_cdf <- function(x, x0 = 0, s = 1, a = 0) {
   return(out)
 }
 
+make_plot(x0 = 2, a = 0.3, s = 2, xmin = -5, xmax = 5, cdf = FALSE)
+
 # Adding functionality to invert the PDF and CDF -------------------------------
 # transformed_pdf_with_invert <- function(x, x0 = 0, s = 1, a = 0, invert = FALSE) {
 #   k <- ifelse(x < x0, -1, 1)
